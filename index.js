@@ -159,7 +159,7 @@ app.use("/api", generalSettingsRoutes);
 app.use("/api", banggoRoutes);
 
 // root
-app.get("/", (_req, res) => res.send("Shoukhinshop Server Is Running Now"));
+app.get("/", (_req, res) => res.send("kroykori.com server Is Running"));
 
 // 404 + error
 app.use((_req, res) => res.status(404).json({ message: "Not found" }));
