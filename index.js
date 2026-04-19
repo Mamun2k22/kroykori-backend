@@ -70,11 +70,11 @@ if (process.env.NODE_ENV === "production") {
 
 const allowedOrigins = [
   "http://localhost:5173",
-  "http://shoukhinshop.com",
-  "http://www.shoukhinshop.com",
-  "https://shoukhinshop.com",
-  "https://www.shoukhinshop.com",
-  "shoukhinshop-com-frontend.vercel.app",
+  "http://kroykori.com",
+  "http://www.kroykori.com",
+  "https://kroykori.com",
+  "https://www.kroykori.com",
+  "https://kroykori-com.vercel.app",
 ];
 app.use(
   cors({
